@@ -3,10 +3,10 @@ package observer;
 /**
  * Driver program for the observer pattern.
  *
- * The observer design pattern defines a 1-to-many relationship between objects
- * in which when one object (the subject) changes state all of its dependents are
- * notified and updated automatically. The observers are loosely coupled in that
- * the subject knows nothing about them.
+ * The observer design pattern is a BEHAVIORAL pattern that defines a 1-to-many relationship
+ * between objects in which when one object (the subject) changes state all of its dependents
+ * are notified and updated automatically. The observers are loosely coupled in that the
+ * subject knows nothing about them.
  */
 public class ObserverDriver
 {

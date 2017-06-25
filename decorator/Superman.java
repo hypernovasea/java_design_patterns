@@ -8,6 +8,12 @@ public class Superman extends Superperson
 
     public Superman()
     {
-        description = "Class : Superhero. \n Physical Attributes : Wear blue suit with red cape. \n Affiliations : Justice League \n";
+        description = "Superhero. Wears blue suit with red cape. Works with the Justice League. ";
+    }
+
+
+    public int powers()
+    {
+        return 0;
     }
 }

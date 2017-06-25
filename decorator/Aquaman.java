@@ -3,5 +3,16 @@ package decorator;
 /**
  * Concrete object; Aquaman object
  */
-public class Aquaman {
+public class Aquaman extends Superperson
+{
+    public Aquaman()
+    {
+        description = "Superhero. Orange and teal suit. Works with the Justice League. Half-human, half god. ";
+    }
+
+
+    public int powers()
+    {
+        return 0;
+    }
 }

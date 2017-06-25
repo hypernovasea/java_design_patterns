@@ -15,5 +15,5 @@ public abstract class Superperson
     }
 
 
-    public abstract String powers();
+    public abstract int powers();
 }

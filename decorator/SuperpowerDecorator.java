@@ -1,7 +1,10 @@
 package decorator;
 
 /**
- * Created by artemis on 6/25/17.
+ * Decorator to give a superperson their powers.
  */
-public class SuperpowerDecorator extends Superperson{
+
+public abstract class SuperpowerDecorator extends Superperson
+{
+    public abstract String getDescription();
 }
