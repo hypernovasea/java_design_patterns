@@ -7,7 +7,7 @@ public class Hulk extends Superperson
 {
     public Hulk()
     {
-        description = "Superhero. Big and green. Works with the Avengers. ";
+        description = "Avenger. Big and green. Works with the Avengers. ";
     }
 
 

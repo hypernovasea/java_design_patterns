@@ -7,7 +7,7 @@ public class Aquaman extends Superperson
 {
     public Aquaman()
     {
-        description = "Superhero. Orange and teal suit. Works with the Justice League. Half-human, half god. ";
+        description = "Avenger. Orange and teal suit. Works with the Justice League. Half-human, half god. ";
     }
 
 

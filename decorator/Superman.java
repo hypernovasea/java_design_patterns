@@ -8,7 +8,7 @@ public class Superman extends Superperson
 
     public Superman()
     {
-        description = "Superhero. Wears blue suit with red cape. Works with the Justice League. ";
+        description = "Avenger. Wears blue suit with red cape. Works with the Justice League. ";
     }
 
 
