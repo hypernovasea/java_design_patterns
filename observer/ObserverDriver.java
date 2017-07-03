@@ -7,6 +7,9 @@ package observer;
  * between objects in which when one object (the subject) changes state all of its dependents
  * are notified and updated automatically. The observers are loosely coupled in that the
  * subject knows nothing about them.
+ *
+ * In this example, there is a book club that sends out updates to its reading list
+ * depending on who has signed up for what.
  */
 public class ObserverDriver
 {

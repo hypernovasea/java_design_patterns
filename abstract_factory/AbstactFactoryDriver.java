@@ -8,8 +8,12 @@ package abstract_factory;
  * Factory pattern an interface is responsible for creating a factory of related
  * objects without explicitly specifying their classes. Each generated factory
  * can give the objects as per the Factory pattern.
+ *
+ * In this example, a superhero factory will be produced based on the type
+ * specified : strong, fast, or psychic. Once the correct factory is given,
+ * a superhero object will be created depending on the type specified.
  */
-public class SuperheroAbstactFactoryDriver
+public class AbstactFactoryDriver
 {
     public static void main(String args[])
     {

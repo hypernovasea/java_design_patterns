@@ -7,11 +7,14 @@ public class FactoryProducer
 {
     public static SuperheroAbstractFactory getFactory(String choice)
     {
-        if(choice.equalsIgnoreCase("Strong"))
+        if(choice.equalsIgnoreCase("Strong")) {
             return new StrongSuperheroFactory();
-        else if(choice.equalsIgnoreCase("Fast"))
+        }
+        else if(choice.equalsIgnoreCase("Fast")) {
             return new FastSuperheroFactory();
-        else
+        }
+        else {
             return new PsychicSuperheroFactory();
+        }
     }
 }

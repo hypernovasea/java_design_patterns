@@ -12,6 +12,7 @@ public class Flying extends SuperpowerDecorator
         this.superperson = superperson;
     }
 
+
     public String getDescription()
     {
         return superperson.getDescription() + "Flying in the skies. ";

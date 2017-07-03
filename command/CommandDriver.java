@@ -6,6 +6,13 @@ package command;
  * The Command design pattern is a BEHAVIORAL patten that encapsulates a command
  * within an object. It decouples the command from the requester of the action and
  * object that performs the action.
+ *
+ * In this example, there are objects that have different commands to operate them.
+ * A remote control object is created with slots that hold the commands for operating
+ * these objects. Since we don't want to hardwire the commands into the remote control
+ * slots, we encapsulate each command an object is capable of into its object and we assign
+ * the command object into a slot of the remote control. The remote control does not know
+ * nor care how the command works, just that it get executed.
  */
 public class CommandDriver
 {

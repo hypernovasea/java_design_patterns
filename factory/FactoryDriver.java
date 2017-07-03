@@ -1,12 +1,17 @@
 package factory;
 
 /**
- * Drivers the factory design pattern. Creates a special Avenger based on the enemy provided.
+ * Drivers the factory design pattern.
  *
- * The Factory design pattern is a CREATIONAL pattern in which an interface leaves the creation
- * of a particular class up to the subclass.
+ * The Factory design pattern is a CREATIONAL pattern in which an
+ * interface leaves the creation of a particular class up to the subclass.
+ *
+ * In this example, a factory creates a special Avenger based on the enemy
+ * provided. The exact way an Avenger saves the day depends on the concrete
+ * object is created.
+ *
  */
-public class AvengerFactoryDriver {
+public class FactoryDriver {
 
     public static void main(String[] args){
 

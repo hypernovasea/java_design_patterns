@@ -3,8 +3,17 @@ package decorator;
 /**
  * Drives the decorator design pattern.
  *
- * The decorator design pattern is a STRUCTURAL pattern that attaches additional responsibilities to an object
- * dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+ * The decorator design pattern is a STRUCTURAL pattern that attaches additional
+ * responsibilities to an object dynamically. Decorators provide a flexible
+ * alternative to subclassing for extending functionality.
+ *
+ * In this example, there are superheroes and superpowers. Each concrete superhero
+ * implements the Superhero interface and each superpower implements the
+ * SuperpowerDecorator interface. Once a superhero is created, it is then "decorated"
+ * with its necessary superpowers. When the description of the superhero is called,
+ * it will display not only its native description that's in its own class, but the
+ * superpower description that it's been decorated with.
+ *
  */
 public class DecoratorDriver
 {

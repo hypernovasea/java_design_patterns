@@ -17,7 +17,6 @@ public class Longevity extends SuperpowerDecorator
         return superperson.getDescription() + "Living longer than normal. ";
     }
 
-
     public int powers()
     {
         return superperson.powers() + 1;
