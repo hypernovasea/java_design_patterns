@@ -15,10 +15,8 @@ package decorator;
  * superpower description that it's been decorated with.
  *
  */
-public class DecoratorDriver
-{
-    public static void main(String args[])
-    {
+public class DecoratorDriver {
+    public static void main(String args[]) {
         Superperson superman = new Superman();
         System.out.println(superman.getDescription() + "Number of powers = " + superman.powers());
         superman = new SuperStrength(superman);
