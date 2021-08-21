@@ -1,8 +1,6 @@
 package factory;
 
-/**
- * Created by artemis on 6/25/17.
- */
+
 public class AvengerFactory {
 
     public Avenger getAvenger(String avenger) {
@@ -19,6 +17,5 @@ public class AvengerFactory {
         else {
             return new BlackWidow();
         }
-
     }
 }
