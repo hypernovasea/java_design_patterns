@@ -13,8 +13,7 @@ package singleton;
  */
 public class HighlanderDriver {
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         //illegal construct
         //Highlander highlander = new Highlander();
 
