@@ -1,11 +1,7 @@
 package observer;
 
 import java.util.ArrayList;
-
-/**
- * A club that notifies its members by implementing the Subject interface.
- */
-public class BookClub implements AdventureSubject, HumorSubject, SciFiSubject, RomanceSubject{
+public class BookClub implements AdventureSubject, HumorSubject, SciFiSubject, RomanceSubject {
 
     private ArrayList<Observer> adventurers;
     private ArrayList<Observer> comedians;
@@ -18,8 +14,7 @@ public class BookClub implements AdventureSubject, HumorSubject, SciFiSubject, R
     private String new_romance;
 
 
-    public BookClub()
-    {
+    public BookClub() {
         System.out.println("Starting a new book club...");
         adventurers = new ArrayList<Observer>();
         comedians = new ArrayList<Observer>();
@@ -28,23 +23,20 @@ public class BookClub implements AdventureSubject, HumorSubject, SciFiSubject, R
     }
 
 
-    public void registerAdventurer(Observer o)
-    {
+    public void registerAdventurer(Observer o) {
         adventurers.add(o);
     }
 
 
-    public void removeAdventurer(Observer o)
-    {
+    public void removeAdventurer(Observer o) {
         adventurers.remove(o);
         System.out.println("Removed an adventurer.");
     }
 
 
-    public void notifyAdventurers()
-    {
+    public void notifyAdventurers() {
         System.out.println("New : A daring and crazy journey...");
-        for(Observer observer : adventurers){
+        for (Observer observer : adventurers) {
             observer.update(new_adventure);
         }
     }
