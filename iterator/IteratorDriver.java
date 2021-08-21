@@ -1,10 +1,9 @@
 package iterator;
 
-import factory.Avenger;
 
 public class IteratorDriver {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         XMan x1 = new XMan("Wolverine", "Advanced healing, adamantium skeleton");
         XMan x2 = new XMan("Storm", "Weather manipulation");
@@ -16,11 +15,10 @@ public class IteratorDriver {
         XMan[] xmen = {x1, x2, x3, x4, x5, x6};
         XMenIterator xIter = new XMenIterator(xmen);
 
-        while(xIter.hasNext()){
+        while (xIter.hasNext()) {
             XMan x = xIter.next();
             System.out.println("\n");
             x.mutation();
-
         }
     }
 }

@@ -6,20 +6,20 @@ public class XMenIterator implements Iterator {
     XMan[] xmen;
     int position;
 
-    public XMenIterator(XMan[] xmen){
+    public XMenIterator(XMan[] xmen) {
         this.xmen = xmen;
     }
 
-    public XMan next(){
+    public XMan next() {
         XMan x = xmen[position];
         position = position + 1;
         return x;
     }
 
-    public boolean hasNext(){
-        if(position >= xmen.length || xmen[position] == null){
+    public boolean hasNext() {
+        if(position >= xmen.length || xmen[position] == null) {
             return false;
-        }else{
+        } else {
             return true;
         }
     }
