@@ -2,11 +2,12 @@ package bridge;
 
 public class DarthVader extends SuperpoweredBeing {
 
-    public DarthVader(Telekinesis telekinesis, String description){
+    public DarthVader(Telekinesis telekinesis, String description) {
         super(telekinesis, description);
     }
 
-    public void move(){
+
+    public void move() {
         telekinesis.useTelekinesis();
     }
 }
