@@ -13,10 +13,8 @@ package abstract_factory;
  * specified : strong, fast, or psychic. Once the correct factory is given,
  * a superhero object will be created depending on the type specified.
  */
-public class AbstactFactoryDriver
-{
-    public static void main(String args[])
-    {
+public class AbstactFactoryDriver {
+    public static void main(String args[]) {
         SuperheroAbstractFactory strong = FactoryProducer.getFactory("Strong");
         StrongSuperhero superman = strong.getStrongHero("Superman");
         superman.save();
