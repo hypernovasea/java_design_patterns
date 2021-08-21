@@ -5,11 +5,11 @@ public class AnthonyEdwardStark {
     State atHomeState;
     State ironManState;
     State publicFigureState;
-
     State state;
     String catchphrase;
 
-    public AnthonyEdwardStark(String catchphrase){
+
+    public AnthonyEdwardStark(String catchphrase) {
         atHomeState = new AtHomeTonyState(this);
         ironManState = new IronManTonyState(this);
         publicFigureState = new PublicFigureTonyState(this);
@@ -18,35 +18,43 @@ public class AnthonyEdwardStark {
         this.catchphrase = catchphrase;
     }
 
-    public void tinker(){
+
+    public void tinker() {
         state.tinkerWithTech();
     }
 
-    public void assemble(){
+
+    public void assemble() {
         state.assembleWithTeam();
     }
 
-    public void meet(){
+
+    public void meet() {
         state.meetWithPeople();
     }
 
-    public void setState(State state){
+
+    public void setState(State state) {
         this.state = state;
     }
 
-    public State getAtHomeTonyState(){
+
+    public State getAtHomeTonyState() {
         return atHomeState;
     }
 
-    public State getIronManState(){
+
+    public State getIronManState() {
         return ironManState;
     }
 
-    public State getPublicFigureState(){
+
+    public State getPublicFigureState() {
         return publicFigureState;
     }
 
-    public void getCatchphrase(){
+    
+    public void getCatchphrase() {
         System.out.println(catchphrase);
     }
 }
