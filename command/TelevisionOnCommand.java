@@ -1,19 +1,14 @@
 package command;
 
-/**
- * Created by artemis on 7/2/17.
- */
-public class TelevisionOnCommand implements Command
-{
+public class TelevisionOnCommand implements Command {
     Television tv;
 
-    public TelevisionOnCommand(Television tv)
-    {
+    public TelevisionOnCommand(Television tv) {
         this.tv = tv;
     }
 
 
-    public void execute(){
+    public void execute() {
         tv.on();
     }
 }

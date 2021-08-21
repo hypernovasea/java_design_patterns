@@ -14,10 +14,8 @@ package command;
  * the command object into a slot of the remote control. The remote control does not know
  * nor care how the command works, just that it get executed.
  */
-public class CommandDriver
-{
-    public static void main(String[] args)
-    {
+public class CommandDriver {
+    public static void main(String[] args) {
         //initialize the objects that will perform the actions
         LivingRoomLight light = new LivingRoomLight();
         Television tv = new Television();
@@ -43,8 +41,5 @@ public class CommandDriver
         remoteControl.offButtonPushed(1);
         remoteControl.offButtonPushed(0);
         remoteControl.offButtonPushed(2);
-
-
-
     }
 }

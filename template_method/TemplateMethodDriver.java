@@ -16,7 +16,7 @@ package template_method;
  */
 public class TemplateMethodDriver {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Story loveStory = new LoveStory();
         loveStory.plot();

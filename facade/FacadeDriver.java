@@ -12,7 +12,7 @@ package facade;
  */
 public class FacadeDriver {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ShapeFacade shapeFacade = new ShapeFacade();
         shapeFacade.drawCircle();
         shapeFacade.drawRectangle();
